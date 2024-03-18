@@ -1,0 +1,318 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Playball');
+
+/* The CSS3 box-sizing property allows us to include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+div.body {
+/* Any properties changed below will be for the Body Box (DIV) */
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #333;
+}
+
+div.content1 {
+  /* Any properties in relation to setting of the display of content1 */
+  height:900px; 
+}
+
+div.content2 {
+  /* Any properties in relation to setting of the display of content2 */
+  height: 550px; 
+  background-color: white;
+}
+
+div.content3 {
+  /* Any properties in relation to setting of the display of content3 */
+  width:100%;
+}
+
+div.content4 {
+  /* Any properties in relation to setting of the display of content4 */
+  height: 550px; 
+  background-color: white;
+}
+
+div.content5 {
+  /* Any properties in relation to setting of the display of content5 */
+  position: absolute;
+  background-color:#990000;
+  width: 100%;
+  border: 2px white solid;
+}
+
+div.contentb1 {
+  /* Any properties in relation to setting of the display of content1 of detail.html */
+  height:500px;
+  width:100%
+}
+
+div.contentb2 {
+  /* Any properties in relation to setting of the display of content1 of detail.html */
+  height:500px;
+  padding: 150px;
+  position:relative;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+div.column1 {
+  /* Sets properties for column 1 of content 5 */
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 240px;
+  width: 450px;
+  display: inline-block;
+}
+
+div.column2 {
+  /* Sets properties for column 2 of content 5 */
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 240px;
+  width: 450px;
+  display: inline-block;
+}
+
+div.nav {
+  text-align: center;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+}
+
+.navmenu {
+  /* Hides natural decorations for links */
+  list-style-type: none;   
+}
+
+.navmenu a {
+  /* Adds properties for links */
+  color: white;
+  font-size: 15px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navmenu a:hover {
+  /* Transition affect for the nav properties */
+  transition-duration:0.4s;
+  color: orange;
+  border-bottom: 1px solid orange;
+  padding-bottom: 10px;
+}
+
+div.nav2 {
+  /* Hides natural decorations for links for nav properties regarding to any other webpages other than index.html */
+  text-align: center;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  
+}
+
+.navmenu2 a {
+  /* Adds properties for links for nav properties regarding to any other webpages other than index.html */
+  color: black;
+  font-size: 15px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navmenu2 a:hover {
+  /* Transition affect for the nav properties regarding to any other webpages other than index.html */
+  transition-duration:0.4s;
+  color: orange;
+  border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+}
+
+#navlinks {
+  /* Adds custome properties for links for nav properties */
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;   
+}
+
+#navlinks:not(:last-child) {
+  /* Sets side borders */
+  border-right: 2px solid white;
+}
+
+#navlinks2 {
+  /* Adds custome properties for links for nav properties regarding to any other webpages other than index.html */
+  display: inline-block;
+  padding-left:20px;
+  padding-right: 20px;
+  color: black;
+}
+  
+#navlinks2:not(:last-child) {
+  /* Sets side borders */
+  border-right: 2px solid black;
+}
+  
+
+/* Button properties below */
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+}
+  
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 5px solid orange;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: white;
+}
+
+#centeralign {
+  margin: 100px 100px 100px 0px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+/* Text properties */
+
+h1.englishlogo {
+  font-size: 130px;
+  color:white;
+  text-align: center;
+  padding-top: 50px;
+  border: 0 auto;
+  font-family:"Playball";
+  
+}
+h3.englishlogo2 {
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+.commonheading {
+  margin-top: 110px;
+  color: #b7985b;
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: 100;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
+
+.commonheading2 {
+  color:white;
+  font-size: 50px;
+}
+
+.commonheading3 {
+  color: #b7985b;
+  padding-top: 80px;
+  font-size: 45px;
+  text-transform: none;
+  text-align: center;
+}
+
+.section1p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 100;
+  margin-bottom: -3px;
+  letter-spacing: 0;
+  text-transform: none; 
+  text-align: center;
+}
+
+.section3p {
+  display: inline-block;
+  position:relative;
+  left: 61%;
+  width:40%;
+  text-align: center;
+  background-color:darksalmon;
+  height: 500px;
+  color:white;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 20px;
+}
+
+#a01 {
+  text-align:center;
+  color:white;
+}
+#b01 {
+  text-align:center;
+  color:white;
+}
+#c01 {
+  text-align:left;
+  color:white;
+}
+
+#d01 {
+  line-height: 4;
+}
+
+#e02 {
+  margin-top: 250px;
+}
+
+#f01 {
+  text-align:center;
+  padding: 150px;
+}
+
+
+/* Images properties */
+
+.background-image {
+  background-image: url('dragon.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 900px;
+  filter: brightness(100%);
+  width: auto;
+}
+
+#sideimage img {
+  width: 60%;
+  display: inline-block;
+  height: 500px;
+  position: absolute;
+}
+
+
+/* Other properties */
+
+#right{
+  float: right; 
+}
